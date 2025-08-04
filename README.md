@@ -26,14 +26,9 @@
 
 ## 🚀 Setup & Deployment
 
-1. Clone this repo:
+1. Log into IBM Cloud.
 
-   ```bash
-   git clone https://github.com/your-org/AI_Nutrition_Assistant.git
-   cd AI_Nutrition_Assistant
-   ```
-
-2. Log into IBM Cloud and open your **Watsonx.ai project** (`AI_Nutrition_Assistant`).
+2. Open your **Watsonx.ai project** (`AI_Nutrition_Assistant`).
 
 3. Update the **agent prompt** in Agent Lab with content from `prompts/agent_prompt.txt`.
 
