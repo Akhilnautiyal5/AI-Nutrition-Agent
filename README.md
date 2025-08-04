@@ -1,7 +1,6 @@
-<img width="1924" height="1084" alt="Screenshot 2025-08-02 153841" src="https://github.com/user-attachments/assets/e7a409ef-1836-440f-8996-9671d99df727" /># 🧠 AI_Nutrition_Assistant
+# 🧠 AI_Nutrition_Assistant
 
 **Problem Statement** – In an era where health awareness is growing, individuals increasingly seek personalized nutrition guidance. However, most existing tools provide generic diet plans, lack real-time adaptability, and fail to consider a person's holistic lifestyle, cultural preferences, allergies, and evolving health conditions. Furthermore, dieticians and nutritionists face limitations in scaling personalized consultations due to time and resource constraints.
-<img width="6815" height="77" alt="image" src="https://github.com/user-attachments/assets/22fb64c3-4b8f-47cb-a042-7783e7213e0e" />
 
 
 **The Smartest AI Nutrition Agent** – a personalized, adaptive nutrition coach built using IBM Cloud’s **Watsonx Agent Lab** with the **Mistral foundation model**, designed to suggest meals, explain nutrition, and track progress in a culturally-aware, fitness-sensitive way.
