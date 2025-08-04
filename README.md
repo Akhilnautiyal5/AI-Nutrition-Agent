@@ -20,24 +20,7 @@
 
 ### Model
 - Uses **Mistral‑large** (Watsonx foundation model)  
-- Built via **Agent Lab** in IBM Cloud Lite account  
-
----
-
-## 📂 Repository Structure
-
-```text
-📦AI_Nutrition_Assistant
- ┣ 📂screenshots
- ┃ ┣ agent_lab_config.png
- ┃ ┣ deployment_space.png
- ┃ ┗ preview_reply.png
- ┣ 📂tools
- ┃ ┗ sample_tool_interface.json
- ┣ 📂prompts
- ┃ ┗ agent_prompt.txt
- ┣ README.md
-````
+- Built via **Agent Lab** in IBM Cloud Lite account
 
 ---
 
@@ -78,18 +61,20 @@
 
 ## 🖼️ Screenshots
 **Agent Lab tools & prompt configuration**
-![Agent Config](<img width="1924" height="1084" alt="Screenshot 2025-08-02 153841" src="https://github.com/user-attachments/assets/bb5ff828-1d29-4c9b-8501-9f67c901ef94" />
-, <img width="1924" height="1084" alt="Screenshot 2025-08-02 153855" src="https://github.com/user-attachments/assets/7a413b9b-eb6f-49c6-8b89-be8f39f7b145" />
-)
+<img width="1924" height="1084" alt="Screenshot 2025-08-02 153841" src="https://github.com/user-attachments/assets/bb5ff828-1d29-4c9b-8501-9f67c901ef94" />
+<img width="1924" height="1084" alt="Screenshot 2025-08-02 153855" src="https://github.com/user-attachments/assets/7a413b9b-eb6f-49c6-8b89-be8f39f7b145" />
 
 **Deployment space details (status: Ready)**
-![Deployment Space](<img width="1923" height="759" alt="Screenshot 2025-08-02 143103" src="https://github.com/user-attachments/assets/bd5ebe32-0231-4056-9b69-0e5498f3152c" />
-)
+<img width="1923" height="759" alt="Screenshot 2025-08-02 143103" src="https://github.com/user-attachments/assets/7635ffaa-6b29-45fa-93b3-94c540179666" />
+
+
 
 **Example nutrition assistant reply in Preview window**
-![Preview Reply](<img width="1924" height="1084" alt="Screenshot 2025-08-02 151932" src="https://github.com/user-attachments/assets/7a855522-886b-449a-b0bc-eae9f6fdf859" />
-, <img width="919" height="586" alt="Screenshot 2025-08-02 152825" src="https://github.com/user-attachments/assets/65769dc6-3c4a-47aa-a757-e28383180ca5" />
-)
+<img width="1924" height="1084" alt="Screenshot 2025-08-02 151932" src="https://github.com/user-attachments/assets/7a855522-886b-449a-b0bc-eae9f6fdf859" />
+<img width="919" height="586" alt="Screenshot 2025-08-02 152825" src="https://github.com/user-attachments/assets/65769dc6-3c4a-47aa-a757-e28383180ca5" />
+
+**Resource List**:
+<img width="1924" height="1084" alt="image" src="https://github.com/user-attachments/assets/8f4b9cb8-561b-436f-bdff-3e54e51be122" />
 
 ---
 
@@ -147,6 +132,16 @@ Use this as reference if you create a custom tool to fetch nutrient data or perf
 
 **Agent**:
 > Thanks! You prefer 3 meals + 1 snack per day. Zero eggs. Do you have any allergies?
+
+---
+
+## 🔗 API Endpoints
+
+- 🔹 **Predictive Chat API**:  
+  `https://us-south.ml.cloud.ibm.com/ml/v4/deployments/0004b38c-a4fb-40d7-8d8d-ec07458a62dd/ai_service?version=2021-05-01`
+
+- 🔹 **Streaming Endpoint** (for real-time interaction):  
+  `https://us-south.ml.cloud.ibm.com/ml/v4/deployments/0004b38c-a4fb-40d7-8d8d-ec07458a62dd/ai_service_stream?version=2021-05-01`
 
 ---
 
